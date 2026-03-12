@@ -1,6 +1,6 @@
 import { cn } from '../lib/utils'
 
-export const Logo = ({ className, uniColor }: { className?: string; uniColor?: boolean }) => {
+export const Logo = ({ className }: { className?: string; uniColor?: boolean }) => {
     return (
         // <svg
         //     className={cn('text-foreground h-6 w-full', className)}

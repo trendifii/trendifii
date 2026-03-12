@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
-import { ArrowRight, ChevronRight } from 'lucide-react'
-import { Button } from '@/components/ui/button'
-import Image from 'next/image'
+import { ChevronRight } from 'lucide-react'
+// import { Button } from '@/components/ui/button'
+// import Image from 'next/image'
 import { TextEffect } from '@/components/ui/text-effect'
-import { AnimatedGroup } from '@/components/ui/animated-group'
+// import { AnimatedGroup } from '@/components/ui/animated-group'
 import { HeroHeader } from './header'
 // import { Spotify } from '@/components/ui/svgs/spotify'
 // import { SupabaseFull } from '@/components/ui/svgs/supabase'
@@ -15,25 +15,25 @@ import { HeroHeader } from './header'
 // import { Claude } from '@/components/ui/svgs/claude'
 // import { VercelFull } from '@/components/ui/svgs/vercel'
 
-const transitionVariants = {
-    item: {
-        hidden: {
-            opacity: 0,
-            filter: 'blur(12px)',
-            y: 12,
-        },
-        visible: {
-            opacity: 1,
-            filter: 'blur(0px)',
-            y: 0,
-            transition: {
-                type: 'spring',
-                bounce: 0.3,
-                duration: 1.5,
-            },
-        },
-    },
-}
+// const transitionVariants = {
+//     item: {
+//         hidden: {
+//             opacity: 0,
+//             filter: 'blur(12px)',
+//             y: 12,
+//         },
+//         visible: {
+//             opacity: 1,
+//             filter: 'blur(0px)',
+//             y: 0,
+//             transition: {
+//                 type: 'spring',
+//                 bounce: 0.3,
+//                 duration: 1.5,
+//             },
+//         },
+//     },
+// }
 
 export default function HeroSection() {
     return (
@@ -49,7 +49,7 @@ export default function HeroSection() {
                 </div>
                 <section>
                     <div className="relative pt-24 md:pt-36">
-                        <AnimatedGroup
+                        {/* <AnimatedGroup
                             variants={{
                                 container: {
                                     visible: {
@@ -82,7 +82,7 @@ export default function HeroSection() {
                                 width="3276"
                                 height="4095"
                             />
-                        </AnimatedGroup>
+                        </AnimatedGroup> */}
 
                         <div
                             aria-hidden
@@ -128,7 +128,7 @@ export default function HeroSection() {
                                     Trust Infrastructure for Peer-to-Peer Marketing
                                 </TextEffect>
 
-                                <AnimatedGroup
+                                {/* <AnimatedGroup
                                     variants={{
                                         container: {
                                             visible: {
@@ -163,11 +163,11 @@ export default function HeroSection() {
                                             <span className="text-nowrap">Button 2</span>
                                         </Link>
                                     </Button>
-                                </AnimatedGroup>
+                                </AnimatedGroup> */}
                             </div>
                         </div>
 
-                        <AnimatedGroup
+                        {/* <AnimatedGroup
                             variants={{
                                 container: {
                                     visible: {
@@ -197,7 +197,7 @@ export default function HeroSection() {
                                     />
                                 </div>
                             </div>
-                        </AnimatedGroup>
+                        </AnimatedGroup> */}
                     </div>
                 </section>
                 <section className="bg-background pb-16 pt-16 md:pb-32">
