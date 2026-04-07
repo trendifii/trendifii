@@ -1,19 +1,18 @@
 import FAQsThree from "@/components/faqs-3";
 import Features from "@/components/features-2";
-import FooterSection from "@/components/footer";
+
 import HeroSection from "@/components/hero-section";
 import Stats from "@/components/stats-1";
-import TeamSection from "@/components/team";
+import VideoCarousel from "@/components/video-carousel";
 
 export default function Home() {
   return (
     <div>
       <HeroSection/>
+      <VideoCarousel/>
       <Features/>
       <Stats/>
-      <TeamSection/>
       <FAQsThree/>
-      <FooterSection/>
     </div>
   );
 }

@@ -2,34 +2,18 @@ import Link from 'next/link'
 
 const links = [
     {
-        title: 'Features',
-        href: '#',
-    },
-    {
-        title: 'Solution',
-        href: '#',
-    },
-    {
-        title: 'Customers',
-        href: '#',
-    },
-    {
-        title: 'Pricing',
-        href: '#',
-    },
-    {
-        title: 'Help',
+        title: 'For Brand',
         href: '#',
     },
     {
         title: 'About',
-        href: '#',
+        href: '/about',
     },
 ]
 
 export default function FooterSection() {
     return (
-        <footer className="border-b bg-white py-12 dark:bg-transparent">
+        <footer className="border-b bg-white py-12 dark:bg-indigo-950">
             <div className="mx-auto max-w-5xl px-6">
                 <div className="flex flex-wrap justify-between gap-6">
                     <span className="text-muted-foreground order-last block text-center text-sm md:order-first">© {2026} Trendifii, All rights reserved</span>

@@ -1,12 +1,10 @@
 'use client'
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
-import { DynamicIcon, type IconName } from 'lucide-react/dynamic'
 import Link from 'next/link'
 
 type FAQItem = {
     id: string
-    icon: IconName
     question: string
     answer: string
 }
@@ -15,34 +13,24 @@ export default function FAQsThree() {
     const faqItems: FAQItem[] = [
         {
             id: 'item-1',
-            icon: 'clock',
-            question: 'What are your business hours?',
-            answer: 'Our customer service team is available Monday through Friday from 9:00 AM to 8:00 PM EST, and weekends from 10:00 AM to 6:00 PM EST. During holidays, hours may vary and will be posted on our website.',
+            question: 'What is Trendifii?',
+            answer: 'Using Trendifii you can earn rewards for the purchases you make and post online.',
         },
         {
             id: 'item-2',
-            icon: 'credit-card',
-            question: 'How do subscription payments work?',
-            answer: 'Subscription payments are automatically charged to your default payment method on the same day each month or year, depending on your billing cycle. You can update your payment information and view billing history in your account dashboard.',
+            question: 'I am not a creator or youtuber can I still earn?',
+            answer: 'Of course! you just need to have 1000+ followers and a public account.',
         },
         {
             id: 'item-3',
-            icon: 'truck',
-            question: 'Can I expedite my shipping?',
-            answer: 'Yes, we offer several expedited shipping options at checkout. Next-day and 2-day shipping are available for most U.S. addresses if orders are placed before 2:00 PM EST. International expedited shipping options vary by destination.',
+            question: 'How to download and sign up for Trendifii?',
+            answer: 'Download the app from playstore or apple store. Signup and do the registration, you need to be atleast 18 years old to use the app. And for getting rewards you need to have atleast 1000 followers.',
         },
         {
             id: 'item-4',
-            icon: 'globe',
-            question: 'Do you offer localized support?',
-            answer: 'We offer multilingual support in English, Spanish, French, German, and Japanese. Our support team can assist customers in these languages via email, chat, and phone during standard business hours for each respective region.',
-        },
-        {
-            id: 'item-5',
-            icon: 'package',
-            question: 'How do I track my order?',
-            answer: 'Once your order ships, you\'ll receive a confirmation email with a tracking number. You can use this number on our website or the carrier\'s website to track your package. You can also view order status and tracking information in your account dashboard under "Order History".',
-        },
+            question: 'How to Link Your Account?',
+            answer: 'Sign up or log in to Trendifii and head to the accounts page. Select the platform of the account you would like to link and click "Add account". Follow the steps within the app and log in via the pop-up browser. Once your account is linked, it is quick and easy to add posts to the app.',
+        }
     ]
 
     return (
@@ -53,11 +41,11 @@ export default function FAQsThree() {
                         <div className="sticky top-20">
                             <h2 className="mt-4 text-3xl font-bold">Frequently Asked Questions</h2>
                             <p className="text-muted-foreground mt-4">
-                                Can't find what you're looking for? Contact our{' '}
+                                Can't find what you're looking for? Contact us{' '}
                                 <Link
-                                    href="#"
+                                    href="mailto:hello@trendifii.com"
                                     className="text-primary font-medium hover:underline">
-                                    customer support team
+                                    hello@trendifii.com
                                 </Link>
                             </p>
                         </div>
@@ -74,12 +62,6 @@ export default function FAQsThree() {
                                     className="bg-background shadow-xs rounded-lg border px-4 last:border-b">
                                     <AccordionTrigger className="cursor-pointer items-center py-5 hover:no-underline">
                                         <div className="flex items-center gap-3">
-                                            <div className="flex size-6">
-                                                <DynamicIcon
-                                                    name={item.icon}
-                                                    className="m-auto size-4"
-                                                />
-                                            </div>
                                             <span className="text-base">{item.question}</span>
                                         </div>
                                     </AccordionTrigger>

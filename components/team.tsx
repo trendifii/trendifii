@@ -5,37 +5,37 @@ const members = [
     {
         name: 'Pawan Mukesh Badsewal',
         role: 'Team Lead',
-        avatar: 'https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?q=80&w=2352&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        avatar: '/team/team_pawan.png',
         link: '#',
     },
     {
         name: 'Amit Kalwar',
         role: 'AI Engineering',
-        avatar: 'https://images.unsplash.com/photo-1633625763717-045645e9e739?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        avatar: '/team/team_amit.png',
         link: '#',
     },
     {
         name: 'Suman Manva',
         role: 'Public Relation/Marketing',
-        avatar: 'https://images.unsplash.com/photo-1758922584983-82ffd5720c6a?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        avatar: '/team/team_suman.png',
         link: '#',
     },
     {
         name: 'Wee Yee Lau',
         role: 'Quality & Compliance Analyst',
-        avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        avatar: '/team/team_amy.jpeg',
         link: '#',
     },
     {
         name: 'Adekunle Abubakar Adewole',
         role: 'AI Engineering',
-        avatar: 'https://images.unsplash.com/photo-1633625763717-045645e9e739?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        avatar: '/team/team_ade.png',
         link: '#',
     },
     {
         name: 'Jibin Lawrance Valliamthadathil',
         role: 'Web Engineer',
-        avatar: 'https://images.unsplash.com/photo-1563237023-b1e970526dcb?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        avatar: '/team/team_jibin.png',
         link: '#',
     },
 ]
