@@ -4,7 +4,7 @@ import BrandCarousel from './brand-carousel'
 
 export default function HeroSection() {
     return (
-        <main className="overflow-hidden">
+        <main className="overflow-hidden min-h-dvh flex flex-col items-center justify-center">
             <div
                 aria-hidden
                 className="absolute inset-0 isolate hidden opacity-65 contain-strict lg:block">

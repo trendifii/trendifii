@@ -10,7 +10,7 @@ const brands = [
 
 export default function BrandCarousel() {
     return (
-        <section className="flex max-w-2xl mx-auto overflow-x-auto bg-gray-50 py-8 md:py-16 dark:bg-transparent pointer-events-none">
+        <section className="flex max-w-2xl mx-auto overflow-x-auto bg-gray-50 py-8 md:py-16 dark:bg-transparent pointer-events-none no-scrollbar">
             <div className="flex gap-8 animate-[scroll_20s_linear_infinite] pr-8">
                 {brands.map((brand, index) => (
                         <Image
