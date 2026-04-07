@@ -41,7 +41,7 @@ export default function FAQsThree() {
                         <div className="sticky top-20">
                             <h2 className="mt-4 text-3xl font-bold">Frequently Asked Questions</h2>
                             <p className="text-muted-foreground mt-4">
-                                Can't find what you're looking for? Contact us{' '}
+                                Can&apos;t find what you&apos;re looking for? Contact us{' '}
                                 <Link
                                     href="mailto:hello@trendifii.com"
                                     className="text-primary font-medium hover:underline">
