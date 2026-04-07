@@ -46,8 +46,8 @@ const members = [
 export default function VideoCarousel() {
     return (
         <section className="overflow-x-auto bg-gray-50 py-16 md:py-32 dark:bg-indigo-950 pointer-events-none no-scrollbar">
-            <h2 className='max-w-2xl text-center mx-auto text-balance text-3xl max-md:font-semibold md:text-5xl'>Real people. Real experiences. Real rewards.</h2>
-            <h3 className='max-w-2xl text-center mx-auto py-8'>Be part of a community earning rewards for talking about brands they genuinely love.</h3>
+            <h2 className='max-w-2xl text-center mx-auto text-balance text-3xl max-md:font-semibold md:text-5xl px-6'>Real people. Real experiences. Real rewards.</h2>
+            <h3 className='max-w-2xl text-center mx-auto py-8 px-6'>Be part of a community earning rewards for talking about brands they genuinely love.</h3>
             <div className='flex'>
             <div className="flex gap-8 pr-8 animate-[scroll_20s_linear_infinite]">
                 {members.map((member, index) => (
