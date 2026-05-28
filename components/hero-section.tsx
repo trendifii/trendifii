@@ -21,13 +21,13 @@ export default function HeroSection() {
                     />
 
                     <div className="mx-auto max-w-7xl px-6">
-                        <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
+                        <div className="mx-auto max-w-4xl px-6 text-center w-full space-y-8">
                             <TextEffect
                                 preset="fade-in-blur"
                                 speedSegment={0.3}
                                 as="h1"
-                                className="mx-auto mt-8 max-w-4xl text-balance text-5xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[5.25rem]">
-                                Trendifii
+                                className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight text-balance leading-[1.1]">
+                                Love the brand, earn the perks.
                             </TextEffect>
                             <TextEffect
                                 per="line"
@@ -36,7 +36,7 @@ export default function HeroSection() {
                                 delay={0.5}
                                 as="p"
                                 className="mx-auto mt-8 max-w-2xl text-balance text-lg">
-                                Turning social influence into financial value
+                                Do you have 1k+ followers? Shop and post, get rewarded for that.
                             </TextEffect>
                         </div>
                     </div>

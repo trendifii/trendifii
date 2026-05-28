@@ -5,15 +5,16 @@ import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import React from 'react'
 import { cn } from '@/lib/utils'
-
-const menuItems = [
-    { name: 'For Brand', href: '#link' },
-    { name: 'About', href: '/about' },
-]
+import { usePathname } from 'next/navigation'
 
 export const HeroHeader = () => {
     const [menuState, setMenuState] = React.useState(false)
     const [isScrolled, setIsScrolled] = React.useState(false)
+    const pathname = usePathname()
+
+    const menuItems = pathname === '/brands'
+        ? [{ name: 'For Creators', href: '/' }, { name: 'About', href: '/about' }]
+        : [{ name: 'For Brands', href: '/brands' }, { name: 'About', href: '/about' }]
 
     React.useEffect(() => {
         const handleScroll = () => {
@@ -75,29 +76,9 @@ export const HeroHeader = () => {
                                 </ul>
                             </div>
                             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-                                <Button
-                                    asChild
-                                    variant="outline"
-                                    size="sm"
-                                    className={cn(isScrolled && 'lg:hidden')}>
+                                <Button asChild size="sm">
                                     <Link href="#">
-                                        <span>Login</span>
-                                    </Link>
-                                </Button>
-                                <Button
-                                    asChild
-                                    size="sm"
-                                    className={cn(isScrolled && 'lg:hidden')}>
-                                    <Link href="#">
-                                        <span>Sign Up</span>
-                                    </Link>
-                                </Button>
-                                <Button
-                                    asChild
-                                    size="sm"
-                                    className={cn(isScrolled ? 'lg:inline-flex' : 'hidden')}>
-                                    <Link href="#">
-                                        <span>Get Started</span>
+                                        <span>{pathname === '/brands' ? 'Book a Demo' : 'Get Started'}</span>
                                     </Link>
                                 </Button>
                             </div>

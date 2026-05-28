@@ -1,17 +1,14 @@
+'use client'
 import Link from 'next/link'
-
-const links = [
-    {
-        title: 'For Brand',
-        href: '#',
-    },
-    {
-        title: 'About',
-        href: '/about',
-    },
-]
+import { usePathname } from 'next/navigation'
 
 export default function FooterSection() {
+    const pathname = usePathname()
+
+    const links = pathname === '/brands'
+        ? [{ title: 'For Creators', href: '/' }, { title: 'About', href: '/about' }]
+        : [{ title: 'For Brands', href: '/brands' }, { title: 'About', href: '/about' }]
+
     return (
         <footer className="border-b bg-white py-12 dark:bg-indigo-950">
             <div className="mx-auto max-w-5xl px-6">
