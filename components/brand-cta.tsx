@@ -21,7 +21,7 @@ export default function BrandCta() {
                     Let&apos;s get your brand in front of millions of authentic voices.
                 </p>
                 <Button size="lg" className="px-12 py-6 text-base" asChild>
-                    <Link href="#">Book a Demo</Link>
+                    <Link href="mailto:hello@trendifii.com">Book a Demo</Link>
                 </Button>
             </div>
         </section>

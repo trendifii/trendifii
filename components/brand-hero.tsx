@@ -30,7 +30,7 @@ export default function BrandHero() {
 
                 <div className="flex flex-col sm:flex-row gap-4 pt-2 justify-center">
                     <Button size="lg" asChild>
-                        <Link href="#">Book a Demo</Link>
+                        <Link href="mailto:hello@trendifii.com">Book a Demo</Link>
                     </Button>
                 </div>
             </div>
