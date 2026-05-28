@@ -77,7 +77,7 @@ export const HeroHeader = () => {
                             </div>
                             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
                                 <Button asChild size="sm">
-                                    <Link href={pathname === '/brands' ? 'mailto:hello@trendifii.com' : '#'}>
+                                    <Link href={pathname === '/brands' ? 'mailto:hello@trendifii.com' : 'https://docs.google.com/forms/d/e/1FAIpQLSfYghkehISL-kMMk6OYDYejV3ZmJz6r6OuT4csFe1o17Y2glA/viewform?usp=publish-editor'}>
                                         <span>{pathname === '/brands' ? 'Book a Demo' : 'Get Started'}</span>
                                     </Link>
                                 </Button>

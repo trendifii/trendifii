@@ -20,12 +20,11 @@ export default function BrandHero() {
                 </div>
 
                 <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight text-balance leading-[1.1]">
-                    Turning social influence into{' '}
-                    <span className="text-primary">financial value</span>
+                    Get Your Customers to Get You More Customers!
                 </h1>
 
                 <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
-                    Bridging the gap between brands and their biggest fans. Trendifii turns authentic customer advocacy into a measurable, rewarding growth engine.
+                    Bridging the gap between brands and their biggest fans. Join trendifii to turn authentic customer advocacy into a measurable, rewarding growth engine.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 pt-2 justify-center">

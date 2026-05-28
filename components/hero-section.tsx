@@ -27,7 +27,7 @@ export default function HeroSection() {
                                 speedSegment={0.3}
                                 as="h1"
                                 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight text-balance leading-[1.1]">
-                                Love the brand, earn the perks.
+                                Love the brand? earn the perks.
                             </TextEffect>
                             <TextEffect
                                 per="line"
@@ -36,7 +36,7 @@ export default function HeroSection() {
                                 delay={0.5}
                                 as="p"
                                 className="mx-auto mt-8 max-w-2xl text-balance text-lg">
-                                Do you have 1k+ followers? Shop and post, get rewarded for that.
+                                Turn your everyday purchases into rewards
                             </TextEffect>
                         </div>
                     </div>
