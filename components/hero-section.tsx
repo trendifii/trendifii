@@ -27,7 +27,7 @@ export default function HeroSection() {
                                 speedSegment={0.3}
                                 as="h1"
                                 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight text-balance leading-[1.1]">
-                                Love the brand? earn the perks.
+                                Love the brand? Earn the perks.
                             </TextEffect>
                             <TextEffect
                                 per="line"

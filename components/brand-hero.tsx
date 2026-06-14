@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { TextEffect } from '@/components/ui/text-effect'
 
 export default function BrandHero() {
     return (
@@ -19,13 +20,23 @@ export default function BrandHero() {
                     <span className="text-primary text-xs font-medium tracking-widest uppercase">Next Gen Influence</span>
                 </div>
 
-                <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight text-balance leading-[1.1]">
+                <TextEffect
+                    preset="fade-in-blur"
+                    speedSegment={0.3}
+                    as="h1"
+                    className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight text-balance leading-[1.1]">
                     Get Your Customers to Get You More Customers!
-                </h1>
+                </TextEffect>
 
-                <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
+                <TextEffect
+                    per="line"
+                    preset="fade-in-blur"
+                    speedSegment={0.3}
+                    delay={0.5}
+                    as="p"
+                    className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
                     Bridging the gap between brands and their biggest fans. Join trendifii to turn authentic customer advocacy into a measurable, rewarding growth engine.
-                </p>
+                </TextEffect>
 
                 <div className="flex flex-col sm:flex-row gap-4 pt-2 justify-center">
                     <Button size="lg" asChild>
